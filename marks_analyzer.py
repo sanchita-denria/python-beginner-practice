@@ -15,4 +15,14 @@ print("SUM=",s)
 print("AVERAGE=",s/n)
 print("HIGHEST MARKS=",high)
 print("LOWEST MARKS=",low)
-  
+for j in range(0,n):
+    if marks[j] >= 90:
+        print(marks[j], "-> A+")
+    elif marks[j] >= 80:
+        print(marks[j], "-> A")
+    elif marks[j] >= 70:
+        print(marks[j], "-> B+")
+    elif marks[j] >= 60:
+        print(marks[j], "-> B")
+    else:
+        print(marks[j], "-> C")
