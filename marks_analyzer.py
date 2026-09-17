@@ -17,12 +17,15 @@ print("HIGHEST MARKS=",high)
 print("LOWEST MARKS=",low)
 for j in range(0,n):
     if marks[j] >= 90:
-        print(marks[j], "-> A+")
+        print(marks[j], "-> A+->PASS")
     elif marks[j] >= 80:
-        print(marks[j], "-> A")
+        print(marks[j], "-> A->PASS")
     elif marks[j] >= 70:
-        print(marks[j], "-> B+")
+        print(marks[j], "-> B+->PASS")
     elif marks[j] >= 60:
-        print(marks[j], "-> B")
+        print(marks[j], "-> B->PASS")
     else:
-        print(marks[j], "-> C")
+      if (marks[j]>40):
+        print(marks[j], "-> C->PASS")
+      else:
+        print(marks[j], "-> C->FAIL")
