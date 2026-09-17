@@ -25,7 +25,7 @@ for j in range(0,n):
     elif marks[j] >= 60:
         print(marks[j], "-> B->PASS")
     else:
-      if (marks[j]>40):
+      if (marks[j]>=40):
         print(marks[j], "-> C->PASS")
       else:
         print(marks[j], "-> C->FAIL")
