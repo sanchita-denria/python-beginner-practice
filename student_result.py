@@ -10,7 +10,6 @@ for i in range(0,n):
      marks.append(int(input("ENTER MARKS:::")))
 print(name)
 print(marks)
-p=0
 def search_students():
   se=input("ENTER A NAME TO SEARCH:::")
   nse=int(input("ENTER MINIMUM MARKS::::"))
